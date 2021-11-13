@@ -1,7 +1,6 @@
-import ThirdCard from "./components/ThirdCard"
+
 import './outils/style.scss'
-import blue from './outils/after-blue.png'
-import pink from './outils/after-pink.png'
+import ThirdCard from './components/ThirdCard'
 export default function ThirdSection() {
     return (
         <div className="thirdContainer">

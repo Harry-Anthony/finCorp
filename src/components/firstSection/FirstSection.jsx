@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './outils/logo.png'
 import './outils/firstSectionStyle.scss'
 import InfoItem from './components/InfoItem'
 

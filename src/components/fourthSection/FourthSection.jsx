@@ -1,6 +1,4 @@
-import bg from './outils/bg-image3.png'
-import layer from './outils/Layer 6-1.png'
-import quote from './outils/quote.png'
+// 
 import './outils/style.scss'
 export default function FourthSection(){
     return (

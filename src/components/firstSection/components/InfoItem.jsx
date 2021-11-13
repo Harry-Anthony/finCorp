@@ -1,4 +1,3 @@
-import icon from '../outils/tick.png'
 import './infoItem.scss'
 
 export default function InfoItem(props) {
