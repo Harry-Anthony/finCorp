@@ -10,8 +10,8 @@ export default function FirstSection() {
                     <img src='https://firebasestorage.googleapis.com/v0/b/fincorp-ac859.appspot.com/o/firstSection%2Flogo.png?alt=media&token=16c04ab4-691f-44e3-9aab-1da850da8ac7' alt="" className="logo"/>
                     <nav>
                         <ul>
-                            <li><a href='#'>For you & family</a></li>
-                            <li><a href='#'>For business</a></li>
+                            <li><a href='/'>For you & family</a></li>
+                            <li><a href='/'>For business</a></li>
                         </ul>
                     </nav>
                 </header>
