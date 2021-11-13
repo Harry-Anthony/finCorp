@@ -1,0 +1,82 @@
+.containerFirstSection header {
+    display: flex;
+    align-items: center;
+    padding-left: 342px;
+    height: 84px;
+    width: 100%;
+    flex-direction: row;
+    border-bottom: solid rgb(228, 226, 226) 1px;
+}
+.containerFirstSection a {
+    text-decoration: none;
+    color: black;
+}
+.containerFirstSection ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.containerFirstSection li {
+    list-style: none;
+    margin-left: 40px;
+}
+.logo{
+    width: 121px;
+    height: 32px;
+}
+.banner{
+    width: 1000px;
+    height: 964px;
+    position: absolute;
+    right: 0px;
+    top: -200px
+}
+.helloContent {
+    height: 244px;
+    margin-top: 193px;
+    margin-left: 342px;
+}
+.helloContent h1{
+    font-size: 54px;
+}
+.titleContent {
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.titleContent h1{
+    font-size: 40px;
+}
+.bottomFirstSection{
+    display: flex;
+    width: 100%;
+    margin-top: 99px;
+}
+.containerFirstSection aside {
+    width: 622px;
+    height: 558px;
+    margin-left: -91px;
+}
+.headTitle{
+    width: 491px;
+    color: #2b7fff;
+    font-weight: bold;
+}
+.greating {
+    font-weight: bold;
+}
+.bgHealth {
+    margin-top: 99px;
+}
+.myButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(70deg,#eda384, #f15380,#f3237d);
+    width: 215px;
+    height: 62px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #e6255a;;
+}

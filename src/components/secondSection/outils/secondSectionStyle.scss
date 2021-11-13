@@ -1,0 +1,17 @@
+.containerSecondSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f0f2f6;
+    width: 100%;
+}
+.busnessTitle{
+    text-align: center;
+    margin: 100px 0px;
+}
+.containerSecondCard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+}
