@@ -1,16 +1,16 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import './style.scss'
 
 export default function SeventhCardItem(props) {
     const [maxheight, setMaxHeight] = useState("0px")
-    let clickStatus = useMemo(()=> true, [])
+    let clickStatus = useRef(true)
     const [borderWidth, setBorderWidth] = useState(0)
     const [padd, setPadd] = useState(0)
     const [angle, setAngle] = useState(0)
     const clickToShow = useCallback(()=>{
-        if (clickStatus)
+        if (clickStatus.current)
         {
-            clickStatus = false;
+            clickStatus.current = false;
             setBorderWidth(1)
             setMaxHeight("150px");
             setPadd(12)
@@ -18,7 +18,7 @@ export default function SeventhCardItem(props) {
         }
         else  
         {
-            clickStatus = true;
+            clickStatus.current = true;
             setBorderWidth(0)
             setMaxHeight("0px")
             setPadd(0)

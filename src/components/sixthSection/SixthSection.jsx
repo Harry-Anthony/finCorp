@@ -1,5 +1,4 @@
 import SixthCard from "./components/SixthCard"
-import bgHonest from './outils/Composed-layer-3.png'
 import './outils/style.scss'
 export default function SixthSection() {
     return (
