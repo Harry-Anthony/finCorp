@@ -11,13 +11,13 @@ export default function FirstSection() {
                     <nav>
                         <ul>
                             <li><a href='/'>For you & family</a></li>
-                            <li><a href='/'>For business</a></li>
+                            <li><a href='/' style={{color: "#bcc0ca"}}>For business</a></li>
                         </ul>
                     </nav>
                 </header>
                 <img src='https://firebasestorage.googleapis.com/v0/b/fincorp-ac859.appspot.com/o/firstSection%2Fbanner-1.png?alt=media&token=0043a377-7019-4042-9e54-84ea05c43d83' alt='' className="banner" />
                 <div className='helloContent'>
-                    <span>HELLO, WE ARE FINCORP</span>
+                    <span className="grey">HELLO, WE ARE FINCORP</span>
                     <h1>
                         Insurance <br /> made easy
                     </h1>
@@ -29,7 +29,7 @@ export default function FirstSection() {
 
             <div className='titleContent'>
                 <h1>A new take on insurance</h1>
-                <span>Great for individuals and business</span>
+                <span className="grey">Great for individuals and business</span>
             </div>
 
             <div className="bottomFirstSection">
@@ -37,7 +37,7 @@ export default function FirstSection() {
                 <aside>
                     <p className="headTitle">Monotonectally deploy deploy seamless data and resource maximizing systems.</p>
                     <p className="greating">Great for individuals and small families up to 4 members.</p>
-                    <p>
+                    <p className="grey">
                         A strong, up to date, employee benefits health insurance programm is vital for attracting and retaining good employees. It 
                         takes diligence, creativity and attention to detail to ensure you getting the best "bang for your buck" each and year
                     </p>

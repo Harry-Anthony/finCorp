@@ -5,7 +5,7 @@ export default function SecondSection(){
         <div className="containerSecondSection">
             <div className="busnessTitle">
                 <h1>Choose your Insurance</h1>
-                <span>Keep your life smile, Safe, and Wealthy</span>
+                <span className="grey">Keep your life smile, Safe, and Wealthy</span>
             </div>
             <div className='containerSecondCard'>
                 <SecondSectionCard color="#b0f3ff" image='https://firebasestorage.googleapis.com/v0/b/fincorp-ac859.appspot.com/o/secondSection%2Fhome-insurance-1.png?alt=media&token=1042c2cd-d4a4-460c-bc22-1217e73a4687' title="Home Insurance" content="Insurance can have various effects on society through the way that it changes who bears the const of losses and damage." />

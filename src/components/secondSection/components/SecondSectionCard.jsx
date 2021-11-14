@@ -6,7 +6,7 @@ export default function SecondSectionCard(props) {
                 <img src={props.image} alt='' />
             </div>
             <h2>{props.title}</h2>
-            <p>{props.content}</p>
+            <p className="grey">{props.content}</p>
         </div>
     )
 }

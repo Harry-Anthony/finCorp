@@ -1,11 +1,16 @@
+.containerFirstSection{
+    width: 100%;
+}
 .containerFirstSection header {
     display: flex;
     align-items: center;
     padding-left: 342px;
     height: 84px;
-    width: 100%;
     flex-direction: row;
     border-bottom: solid rgb(228, 226, 226) 1px;
+}
+.topBar{
+    width: 100%;
 }
 .containerFirstSection a {
     text-decoration: none;
@@ -32,7 +37,6 @@
     top: -200px
 }
 .helloContent {
-    height: 244px;
     margin-top: 193px;
     margin-left: 342px;
 }
@@ -80,3 +84,93 @@
     cursor: pointer;
     box-shadow: 2px 2px 10px #e6255a;;
 }
+@media screen and (max-width: 412px){
+    .containerFirstSection header {
+        padding-left: 0px;
+        justify-content: space-around;
+    }
+    .containerFirstSection aside {
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+        padding: 10px;
+    }
+    .helloContent {
+        margin-top: 50px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titleContent {
+        margin-top: 118px;
+        width: 100%;
+        text-align: center;
+    }
+    .headTitle {
+        width: 100%;
+        color: #2b7fff;
+        font-weight: bold;
+    }
+    .containerSecondCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100% !important;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .claimContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .fourthContainer {
+        margin: 50px 0px !important;
+        height: auto !important;
+    }
+    .containerSatisfaction {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0px 10px;
+    }
+    .mainStatisfaction img {
+        z-index: 1;
+        width: 47px;
+        opacity: 0;
+    }
+    .fifth  {
+        font-size: 19px !important;
+        font-weight: bold !important;
+        margin-left: 40px !important;
+    }
+    .fifthSub {
+        margin-left: 40px;
+        display: inline-block;
+    }
+    .buttonQuote {
+        display: flex;
+        align-items: center;
+        background-color: #25cfa2;
+        height: 40px;
+        margin: 12px;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+    }
+    .seventhContainer {
+        height: 501px !important
+    }
+    .containerItemFoot {
+        height: 150px;
+        width: 80%;
+    }
+    .sevencardTitle {
+        padding: 0px 80px !important;
+    }
+    
+}   

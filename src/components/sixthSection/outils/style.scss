@@ -4,6 +4,10 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
+    background-image: url('Composed-layer-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: 800px;
 }
 .honestCardContent{
     display: flex;
@@ -21,5 +25,19 @@
     background-color: rgb(255, 255, 255);
 }
 .honestTitle{
-    margin: 30px 0px;
+    margin: 50px 0px;
+    margin-bottom: 100px;
+}
+.centerCardTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.save {
+    background: #fff4b4;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ddb85f;
+    margin-top: 10px;
 }

@@ -10,7 +10,7 @@ export default function FourthSection(){
                     know how any of it worked.
                 </p>
                 <h3>Matthew Young</h3>
-                <span>Legal Consultant, Unitades States</span>
+                <span className="grey">Legal Consultant, Unitades States</span>
             </div>
             <img className='bg' src='https://firebasestorage.googleapis.com/v0/b/fincorp-ac859.appspot.com/o/fourthSection%2Fbg-image3.png?alt=media&token=eb015f5f-fe54-40b3-8a27-16e9118ffa8d' alt='' />
             <img src='https://firebasestorage.googleapis.com/v0/b/fincorp-ac859.appspot.com/o/fourthSection%2FLayer%206-1.png?alt=media&token=a0264c36-c62e-4d94-995d-1e0f86f7f523' className="layer" alt='' />

@@ -1,0 +1,31 @@
+.sevenCardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(182, 181, 181);
+}
+.sevencardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid rgb(138, 136, 136) 1px;
+    border-radius: 5px;
+    height: 40px;
+}
+.sevencardTitle {
+    padding: 0px 15px;
+}
+.sevenCardContent {
+    max-height: 0px;
+    overflow: hidden;
+    box-sizing: border-box; 
+    transition: max-height .2s;
+}
+.cursor{
+    cursor: pointer;
+    font-size: 35px;
+    margin-top: 10px;
+    transition: transform .8s ease-in-out;
+}

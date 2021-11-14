@@ -1,34 +1,39 @@
 import SixthCard from "./components/SixthCard"
+import bgHonest from './outils/Composed-layer-3.png'
 import './outils/style.scss'
 export default function SixthSection() {
     return (
         <div className="honestContainer">
             <div className="honestTitle">
                 <h1>Honest Princing</h1>
-                <span>Simple & Honest pricing. No hidden fees.</span>
+                <span className="grey">Simple & Honest pricing. No hidden fees.</span>
             </div>
             <div className="honestCardContent">
-            <div className="sixthCardContainer centerCard ">
-                    <h2>Basic</h2>
-                    <div className="circleDollar">
-                        <div>
-                            <span>$</span>
-                            <span>9</span>
+                <div className="sixthCardContainer centerCard ">
+                    <div className="centerCardTitle">
+                        <div className="sixthCardTitle" style={{color: "#438aff"}}>PROFESSIONAL</div>
+                        <div className="save">SAVE 20%</div>
+                    </div>
+                    <div className="circleDollar" style={{background: "#ffae8d", color: "white"}}>
+                        <div style={{display: "flex", alignItems: "center"}}>
+                            <span className="dollar">$</span>
+                            <span className='price'>19</span>
                         </div>
                     </div>
                     <div>
-                        <div>Rapidiously stategize value</div>
-                        <div>Progressively visualize leadership</div>
-                        <div>Equity invested supply chains</div>
+                        <div className="grey" style={{margin: "15px 0px"}}>Rapidiously stategize value</div>
+                        <div className="grey" style={{margin: "15px 0px"}}>Progressively visualize leadership</div>
+                        <div className="grey" style={{margin: "15px 0px"}}>Equity invested supply chains</div>
+                        <div className="grey" style={{margin: "15px 0px"}}>Proactively leverage</div>
                     </div>
                     <div className='sixthButton' style={{ background: "#ffae8c" }}>
                         Choose Plan
                     </div>
                 </div>
-                <SixthCard buttonColor="#26cfa1" title="Basic" price="9" />
-                <SixthCard buttonColor="#438aff" title="Basic" price="9" />
+                <SixthCard titleColor="#26cfa2" textColor="#6ecab1" color="#beffdb" buttonColor="#26cfa1" title="BASIC" price="9" />
+                <SixthCard titleColor="#ffae8c" textColor="#77c0ed" color="#d7f4ff" buttonColor="#438aff" title="PRENIUM" price="49" />
             </div>
-            <span style={{margin: "30px"}}>*Prices shown per morth if paid annually</span>
+            <span className="grey" style={{ margin: "80px 0px" }}>*Prices shown per morth if paid annually</span>
         </div>
     )
 }

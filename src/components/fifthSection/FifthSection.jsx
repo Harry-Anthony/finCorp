@@ -1,14 +1,14 @@
 import './style.scss'
-export default function FifthSection() {
+export default function FifthSection(props) {
     return (
         <div className="containerSatisfaction">
             <div className='mainStatisfaction'>
-                <img src='https://firebasestorage.googleapis.com/v0/b/fincorp-ac859.appspot.com/o/fifthSection%2Fshield-2.png?alt=media&token=63c26aaa-fb97-415d-a92b-df9a7239d842' alt='' />
+                <img src={props.imgSrc} alt='' />
                 <div>
-                    <div>
-                        100% Satisfaction Guarantee
+                    <div className="fifth" style={{fontSize: "30px", fontWeight: "bold", marginLeft: "40px"}}>
+                        {props.title}
                     </div>
-                    <span>We offer no questions asked refund policy for 14 days from the policy date.</span>
+                    <span  className="grey fifthSub" style={{marginLeft: "40px"}}>{props.subtitle}</span>
                 </div>
                 <div className="buttonQuote">
                     Get your free Quote
