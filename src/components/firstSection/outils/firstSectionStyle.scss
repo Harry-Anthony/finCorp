@@ -172,5 +172,21 @@
     .sevencardTitle {
         padding: 0px 80px !important;
     }
-    
-}   
+}  
+@media screen and (max-width: 1700px) {
+    .fourthContainer .layer {
+        position: absolute;
+        z-index: -1;
+        right: 100px;
+        bottom: 0;
+        opacity: 0.5;
+    }
+    .banner {
+        width: 1000px;
+        height: 964px;
+        position: absolute;
+        right: 0px;
+        top: -200px;
+        opacity: 0.3;
+    }
+}
